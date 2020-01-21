@@ -11,20 +11,19 @@
 </template>
 
 <script>
-  import { mapState } from 'vuex';
-  import DataCard from './DataCard';
+import { mapState } from "vuex";
+import DataCard from "./DataCard";
 
-  export default {
-    components: { DataCard },
-    computed: {
-      ...mapState({
-        timeSeries: state => state.Symbol.timeSeries,
-        indicators: state => state.Symbol.indicators,
-      }),
-    },
-  };
+export default {
+  components: { DataCard },
+  computed: {
+    ...mapState({
+      timeSeries: state => state.Symbol.timeSeries,
+      indicators: state => state.Symbol.indicators
+    })
+  }
+};
 </script>
 
 <style>
-
 </style>

@@ -5,11 +5,11 @@
 </template>
 
 <script>
-  export default {
-    name: 'stock-app',
-  };
+export default {
+  name: "stock-app"
+};
 </script>
 
 <style>
-  /* CSS */
+/* CSS */
 </style>

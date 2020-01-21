@@ -5,17 +5,16 @@
 </template>
 
 <script>
-  import { mapState } from 'vuex';
+import { mapState } from "vuex";
 
-  export default {
-    computed: {
-      ...mapState({
-        symbol: state => state.Symbol.symbol,
-      }),
-    },
-  };
+export default {
+  computed: {
+    ...mapState({
+      symbol: state => state.Symbol.symbol
+    })
+  }
+};
 </script>
 
 <style>
-
 </style>
